@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -17,6 +18,9 @@ textarea {
   height: 100%;
   width: 100%;
   position: absolute;
+  top: 0; left: 0;
+  background: rgb(255, 238, 253);
+  background-attachment: fixed;
 }
 
 .jumbotron {
@@ -24,12 +28,12 @@ textarea {
   color: black;
   border-radius: 0.25rem;
   padding: 1rem;
-  border-bottom: 15px solid #FFB3C6;
+  border-bottom: 15px solid #f47aad;
   text-align: center;
 }
 
 .display-3 {
-  color: #FFB3C6;
+  color: #f47aad;
   font-size: 4.5em;
   line-height: 1.2;
 }
@@ -63,14 +67,14 @@ textarea {
 }
 
 .present {
-  background-color: #c3f6f5;
+  background-color: white;
   color: black;
   margin: auto;
   max-width: 70px;
 }
 
 .future {
-  background-color: #F7D6E0;
+  background-color: #ffc9da;
   color: black;
   margin: auto;
   max-width: 70px;
@@ -80,9 +84,9 @@ textarea {
   border-left: 2px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #fbc5d5;
+  background-color: #fa8bb9;
   color: black;
-  border: 2px solid #d2728d;
+  border: 2px solid #f5609e;
 }
 
 .saveBtn:hover {
