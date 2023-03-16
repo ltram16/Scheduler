@@ -16,18 +16,18 @@ currentDay.append(currentTime);
 
 //add function to change colors of based on past, present, future time
 function colorChange() {
-    for (var i = 9 ; i <= 17 ; i++) { //9-17 = time block from 9am - 5pm
+    for (var i = 9 ; i <= 17 ; i++) { // 9 - 17 means time block from 9am - 5pm
         var eventHour = $('#' + i).attr('id')
         var textArea = $('#' + i)
+     
+    if (parseInt(currentHour) > parseInt(eventHour)) {
+          textArea.css('backgroundColor', 'lightgrey'); //changes color for past time
 
-    if (eventHour < currentHour) {
-        textArea.css('backgroundColor', 'lightgrey'); //changes color for past time
+    } else if (parseInt(currentHour) === parseInt(eventHour)) {
+         textArea.css('backgroundColor', '#c6fffe'); //changes color for present time
 
-    } else if (eventHour === currentHour) {
-        textArea.css('backgroundColor', 'white'); //changes color for present time
-
-    } else {
-        textArea.css('backgroundColor', '#ffc9da'); //changes color for future time
+    } else if (parseInt(currentHour) < parseInt(eventHour)) {
+         textArea.css('backgroundColor', '#ffc9da'); //changes color for future time
     }
     }
 }

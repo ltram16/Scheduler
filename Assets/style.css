@@ -29,34 +29,13 @@ textarea {
   border-radius: 0.25rem;
   padding: 1rem;
   border-bottom: 15px solid #f47aad;
-  text-align: center;
 }
+
 
 .display-3 {
   color: #f47aad;
   font-size: 4.5em;
   line-height: 1.2;
-}
-
-.description {
-  white-space: pre-wrap;
-}
-
-.time-block {
-  border-radius: 15px;
-}
-
-.row {
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: rgb(227, 227, 227);
-  color: #000000;
-  border-top: 1px solid #c3f6f5;
-  border: 1px solid lightgrey;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .past {
@@ -67,7 +46,7 @@ textarea {
 }
 
 .present {
-  background-color: white;
+  background-color: #c6fffe;
   color: black;
   margin: auto;
   max-width: 70px;
@@ -96,9 +75,10 @@ textarea {
   border: 2px solid white;
 }
 
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
+.input-group-prepend {
+  width: 90px;
 }
 
-
+.input-group-text {
+  height: 100%;
+}
