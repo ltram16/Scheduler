@@ -11,3 +11,4 @@ This repository contains a work day scheduler that is designed for work days, wh
 
 ## Screenshot
 
+<img width="1506" alt="scheduler-sscreenshot" src="https://user-images.githubusercontent.com/119918403/226034587-8e1bf643-1e11-49e5-9f1e-c831356eb665.png">
