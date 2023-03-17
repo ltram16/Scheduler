@@ -7,7 +7,7 @@ This repository contains a work day scheduler that is designed for work days, wh
 
 ## Link to Deployed Application
 
-
+https://ltram16.github.io/work-day-scheduler/
 
 ## Screenshot
 
